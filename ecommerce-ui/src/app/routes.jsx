@@ -12,7 +12,8 @@ import OrderDetailsPage from "../pages/orders/OrderDetailsPage";
 
 const AppRoutes = () => {
   return (
-    <Routes>
+    //routes 
+    <Routes> 
       <Route path="/" element={<HomePage />} />
       <Route path="/products" element={<ProductCatalogPage />} />
       <Route path="/products/:id" element={<ProductDetailsPage />} />
