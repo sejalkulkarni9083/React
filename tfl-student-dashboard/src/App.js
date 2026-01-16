@@ -1,0 +1,30 @@
+import logo from './logo.svg';
+import './App.css';
+
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Sidebar from './components/layout/Sidebar';
+import StudentDashboard from './pages/StudentDashboard';
+import Projects from './pages/Projects';
+import Assessments from './pages/Assessments';
+
+export default function App() {
+  return (
+    <Router>
+      <div className="container-fluid">
+        <div className="row">
+          <Sidebar />
+          <div className="col-md-10 p-4">
+            <Routes>
+              <Route path='/' element={<StudentDashboard />} />
+              <Route path='/dashboard' element={<StudentDashboard />} />
+              <Route path='/projects' element={<Projects />} />
+              <Route path='/assessments' element={<Assessments />} />
+            </Routes>
+          </div>
+        </div>
+      </div>
+    </Router>
+  );
+}
+
+
