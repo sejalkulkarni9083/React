@@ -1,10 +1,10 @@
 import Header from '../components/layout/Header';
-import SkillHealthCard from '../components/dashboard/SkillHealthCard';
-import ProjectProgressCard from '../components/dashboard/ProjectProgressCard';
-import LearningPathTimeline from '../components/dashboard/LearningPathTimeline';
-import AssessmentSummary from '../components/dashboard/AssessmentSummary';
-import ConfidenceMeter from '../components/dashboard/ConfidenceMeter';
-import NextActions from '../components/dashboard/NextActions';
+import SkillHealthCard from '../components/dashboard/SkillHealthCard.jsx';
+import ProjectProgressCard from '../components/dashboard/ProjectProgressCard.jsx';
+import LearningPathTimeline from '../components/dashboard/LearningPathTimeLine.jsx';
+import AssessmentSummary from '../components/dashboard/AssessmentSummary.jsx';
+import ConfidenceMeter from '../components/dashboard/ConfidenceMeter.jsx';
+import NextActions from '../components/dashboard/NextActions.jsx';
 
 export default function StudentDashboard() {
   return (

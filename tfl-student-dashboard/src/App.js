@@ -6,6 +6,7 @@ import Sidebar from './components/layout/Sidebar';
 import StudentDashboard from './pages/StudentDashboard';
 import Projects from './pages/Projects';
 import Assessments from './pages/Assessments';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function App() {
   return (
