@@ -1,16 +1,22 @@
-import { BrowserRouter as Router, Link, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
-import Login from "./Login";
-import Register from './Register';
-import List from './List';
+import Login from "./Membership/Login";
+import Register from './Membership/Register';
+import List from './ProductCatalog/List';
+import Goodbye from './Layout/Goodbye';
+import Hello from './Layout/Hello';
 
 
 function App() {
   return (
     <div className="App">
-
-      <BasicRouting />
-
+      <Router>
+        <Routes>
+          <Route path="/" element={<Hello />} />
+          <Route path="/Goodbye" element={<Goodbye />} />
+           <Route path="/Login" element={<Login />} /> 
+        </Routes>
+      </Router>
     </div>
   );
 }
@@ -57,16 +63,6 @@ function Contact(){
   );
 }
 
-function Hello(){
-  return(
-    <div>
-      <h2>Hello from Sanika</h2>
-      <hr/>
-      <p>Sanika here</p>
-    </div>
-
-  );
-}
 
 function Home(){
   return(
