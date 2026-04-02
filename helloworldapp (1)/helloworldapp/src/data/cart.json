@@ -1,0 +1,8 @@
+[
+  { "id": 1, "title": "Hero 5", "imageurl": "/images/hero5.webp", "description": "Beautiful flower", "quantity": 10, "price": 20, "likes": 5 },
+  { "id": 2, "title": "Hero 6", "imageurl": "/images/hero6.webp", "description": "Beautiful flower", "quantity": 15, "price": 25, "likes": 10 },
+  { "id": 3, "title": "Hero", "imageurl": "/images/heroooo.jpg", "description": "Beautiful flower", "quantity": 20, "price": 30, "likes": 15 },
+  { "id": 4, "title": "Jasmine", "imageurl": "/images/jasmine11.webp", "description": "Fragrant flower", "quantity": 5, "price": 18, "likes": 8 },
+  { "id": 5, "title": "Marigold", "imageurl": "/images/marigold11.webp", "description": "Festival flower", "quantity": 12, "price": 22, "likes": 12 }
+]
+ 

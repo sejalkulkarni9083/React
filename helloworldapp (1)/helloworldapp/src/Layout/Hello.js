@@ -11,7 +11,7 @@ const Hello = () => {
   }
 
   const handleLoginClick = () => {
-    console.log(" Login button is clicked")
+    console.log(" SignIn button is clicked")
     navigate('/Login');
   } 
 

@@ -7,7 +7,7 @@ const GoodBye = () =>{
 
   const handleHelloclick = () =>{
     console.log("Hello button is clicked")
-    navigate('/');
+    navigate('/Hello');
   }
   
     return (
