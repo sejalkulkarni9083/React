@@ -5,6 +5,9 @@ import { useNavigate } from "react-router-dom";
 const Hello = () => {
   const navigate = useNavigate();
 
+  var customer = JSON.parse(localStorage.getItem("customer"));
+  console.log("Retrived data" + customer.firstname);
+
   const handleGoodbyeClick = () => {
     console.log(" Goodbye button is clicked")
     navigate('/Goodbye');
