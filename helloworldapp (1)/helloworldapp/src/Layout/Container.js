@@ -8,6 +8,10 @@ import List from '../ProductCatalog/List';
 import Goodbye from '../Layout/Goodbye';
 import Hello from '../Layout/Hello';
 import Cart from '../ShoppingCart/Cart';
+import ListEmployeeComponent from '../HR/Employees';
+import ViewEmployeeComponent from '../HR/Employee';
+import CreateEmployeeComponent from '../HR/Insert';
+import UpdateEmployeeComponent from '../HR/Update';
 
 
 
@@ -22,6 +26,7 @@ function Container() {
         <Link to="/Contact">Contact Us</Link> |
         <Link to="/AboutUs">About Us</Link> |
         <Link to="/Hello">Hello</Link> |
+        <Link to="/employees">Employees</Link> |
         <Link to="/Login">Login</Link> |
         <Link to="/Register">Register</Link>|
         <Link to="/Flowers">List</Link> |
@@ -37,13 +42,17 @@ function Container() {
           <Route path="/Login" element={<Login />} />
           
           <Route path="/Flowers" element={<List />} />
+          <Route path="/employees" element={<ListEmployeeComponent />} />
+          <Route path="/view-employee/:id" element={<ViewEmployeeComponent />} />
+          <Route path="/add-employee" element={<CreateEmployeeComponent />} />
+          <Route path="/update-employee/:id" element={<UpdateEmployeeComponent />} />
           <Route path="/Register" element={<Register />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/" element={<Hello />} />
           <Route path="/Goodbye" element={<Goodbye />} />
         </Routes>
 
-      </Router>
+      </Router>        
     </div>
   );
 }
