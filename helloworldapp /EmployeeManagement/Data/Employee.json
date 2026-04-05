@@ -1,0 +1,43 @@
+[ {
+    "Id": 1,
+    "FirstName": "Sejal",
+    "LastName": "Kulkarni",
+    "EmailId": "Sejal@example.com"
+  },
+   {
+    "Id": 2,
+    "FirstName": "Jane",
+    "LastName": "Smith",
+    "EmailId": "jane@example.com"
+  },
+  {
+    "Id": 2,
+    "FirstName": "Sanika",
+    "LastName": "Kulkarni",
+    "EmailId": "Sanika@example.com"
+  },
+  {
+    "Id": 3,
+    "FirstName": "Soham",
+    "LastName": "Kulkarni",
+    "EmailId": "Soham@example.com"
+  },
+  {
+    "Id": 4,
+    "FirstName": "Vedant",
+    "LastName": "Patil",
+    "EmailId": "Vedant@example.com"
+  },
+  {
+    "Id": 5,
+    "FirstName": "Charlie",
+    "LastName": "Davis",
+    "EmailId": "charlie@example.com"
+  },
+  {
+    "Id": 6,
+    "FirstName": "David",
+    "LastName": "Wilson",
+    "EmailId": "david@example.com"
+  }
+]
