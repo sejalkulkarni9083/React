@@ -1,14 +1,9 @@
-[ {
+[
+  {
     "Id": 1,
     "FirstName": "Sejal",
     "LastName": "Kulkarni",
     "EmailId": "Sejal@example.com"
-  },
-   {
-    "Id": 2,
-    "FirstName": "Jane",
-    "LastName": "Smith",
-    "EmailId": "jane@example.com"
   },
   {
     "Id": 2,

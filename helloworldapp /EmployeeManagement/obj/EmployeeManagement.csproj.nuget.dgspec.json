@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/tfl/sejal/React/helloworldapp (1)/EmployeeManagement/EmployeeManagement.csproj": {}
+    "/home/tfl/sejal/React/helloworldapp /EmployeeManagement/EmployeeManagement.csproj": {}
   },
   "projects": {
-    "/home/tfl/sejal/React/helloworldapp (1)/EmployeeManagement/EmployeeManagement.csproj": {
+    "/home/tfl/sejal/React/helloworldapp /EmployeeManagement/EmployeeManagement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/tfl/sejal/React/helloworldapp (1)/EmployeeManagement/EmployeeManagement.csproj",
+        "projectUniqueName": "/home/tfl/sejal/React/helloworldapp /EmployeeManagement/EmployeeManagement.csproj",
         "projectName": "EmployeeManagement",
-        "projectPath": "/home/tfl/sejal/React/helloworldapp (1)/EmployeeManagement/EmployeeManagement.csproj",
+        "projectPath": "/home/tfl/sejal/React/helloworldapp /EmployeeManagement/EmployeeManagement.csproj",
         "packagesPath": "/home/tfl/.nuget/packages/",
-        "outputPath": "/home/tfl/sejal/React/helloworldapp (1)/EmployeeManagement/obj/",
+        "outputPath": "/home/tfl/sejal/React/helloworldapp /EmployeeManagement/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/tfl/.nuget/NuGet/NuGet.Config"
